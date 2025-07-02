@@ -1,0 +1,98 @@
+main {
+    max-width: 1920px;
+    min-width: 768px;
+    padding: 75px 360px;
+    margin: 0 auto;
+}
+main .container_wrap {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+main .container_wrap .left_top {
+
+}
+main .container_wrap .left_top p {
+    margin-bottom: 11px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+main .container_wrap .left_top a {}
+main .container_wrap .left_top a img {
+}
+
+/* left-top 끝 */
+
+main .container_wrap .right_top {
+    padding: 41px;
+}
+main .container_wrap .right_top h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+main .container_wrap .right_top p {
+    font-weight: 400;
+
+}
+main .container_wrap .right_top ul {
+    margin-right: 15px;
+    display: flex;
+}
+main .container_wrap .right_top ul li {
+    padding: 19px;
+}
+main .container_wrap .right_top ul li a {}
+main .container_wrap .right_top ul li a img {
+    width: 223px; height: 226px;
+    margin-right:15px;
+    padding: 15px;
+
+}
+main .container_wrap .right_top ul li a img:nth-child(2){
+    
+}
+main .container_wrap .right_top ul li a p{}
+main .container_wrap .right_top ul li a p:nth-child(2){}
+main .container_wrap .right_top ul li a span{
+    color: #FF0000;
+    font-size: 0.875rem;
+    font-weight:800;
+}
+main .container_wrap .right_top ul li a p *{
+    font-weight: 500;
+}
+
+/* right_top 끝 */
+
+main  .container_wrap2 {
+    display: flex;
+    flex-flow: column;
+}
+main  .container_wrap2 h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+main .container_wrap2 p { 
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+main .container_wrap2 ul {
+    display: flex;
+    padding: 10px;
+}
+main .container_wrap2 ul li {
+    margin: 10px;
+}
+main .container_wrap2 ul li a {}
+main .container_wrap2 ul li a p * {
+    font-weight: 500;
+}
+main .container_wrap2 ul li a span {
+    color: #FF0000;
+    font-size: 0.875rem;
+    font-weight:800;
+
+}
+
